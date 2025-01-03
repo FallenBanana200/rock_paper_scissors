@@ -1,0 +1,33 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: rgba(250, 235, 215, 0.651);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: antiquewhite;
+}
+
+.secondTitle {
+  margin-bottom: 3vh;
+}
+
+.buttonChoices {
+  position: fixed;
+  bottom: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 56.5%;
+}
+
+.button {
+  box-shadow: 10px 10px 40px 1px rgb(123, 123, 123) !important;
+  padding: 2vw !important;
+}
+
+.resultDisplay {
+  margin-top: 2vh;
+  font-size: 1.2rem;
+}
